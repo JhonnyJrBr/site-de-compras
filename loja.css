@@ -1,21 +1,25 @@
 body {
-    background-color: white;
+    background-image: linear-gradient(to right, rgb(230, 45, 205), #ce7bfe);
+
+
 }
 
 h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue;
+    color: purple;
     text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.4);
     font-family: 'Times New Roman', Times, serif;
 }
 
 p {
-    color: blue;
+    color: purple;
     font-family: 'Times New Roman', Times, serif;
     text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.4);
 }
+
 
 input {
     display: block;
