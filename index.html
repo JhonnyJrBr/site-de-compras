@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas Kadabra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <a href="checkout.html" class="cart-floating-btn" aria-label="Ver carrinho de compras">
+        <svg xmlns="http://w3.org" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <span id="cart-counter">0</span>
+    </a>
+
+    
+    <header class="main-header">
+        <div class="header-container">
+            <h1 class="brand-logo">Lojas<span>Kadabra</span></h1>
+            <p class="tagline">Alta variedade de produtos em um só lugar!</p>
+        </div>
+    </header>
+
+   
+    <main class="store-container">
+    
+        
+        <div class="products-grid">
+           
+            <div class="product-card" data-id="101" data-name="Teclado Mecânico RGB" data-price="349.90">
+                <div class="product-badge">Mais Vendido</div>
+                <div class="product-info">
+                    <h3>Teclado Mecânico RGB</h3>
+                    <p class="product-description">Switch Blue tátil, retroiluminação customizável e anti-ghosting.</p>
+                    <div class="price-container">
+                        <span class="currency">R$</span>
+                        <span class="price-value">349,90</span>
+                    </div>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            
+            <div class="product-card" data-id="102" data-name="Mouse Gamer Pro 16000 DPI" data-price="189.90">
+                <div class="product-info">
+                    <h3>Mouse Gamer Pro 16000 DPI</h3>
+                    <p class="product-description">Sensor óptico de alta precisão, pesos reguláveis e 6 botões macro.</p>
+                    <div class="price-container">
+                        <span class="currency">R$</span>
+                        <span class="price-value">189,90</span>
+                    </div>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+
+            <div class="product-card" data-id="103" data-name="Headset Wireless Spatial Audio" data-price="529.00">
+                <div class="product-info">
+                    <h3>Headset Wireless 7.1</h3>
+                    <p class="product-description">Som surround espacial, microfone com cancelamento de ruído e bateria de 30h.</p>
+                    <div class="price-container">
+                        <span class="currency">R$</span>
+                        <span class="price-value">529,00</span>
+                    </div>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
